@@ -98,6 +98,21 @@
 
 /**** Middle Content ****/
 
+.pdf {
+  padding: 10px 50px;
+  border-radius: 50px;
+  text-decoration: none;
+  background-color: #5AE5A8;
+  color: white;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.pdf:hover {
+  background-color: #D5F7E6;
+  color: #1A2E35;
+}
+
 .middle-sect {
   margin-bottom: 50px;
 }

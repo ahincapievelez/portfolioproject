@@ -1,3 +1,6 @@
+import { Component } from "react";
+import Pdf from "../documents/Andres-Hincapie-Resume.pdf"
+
 function Home() {
   
     return (
@@ -24,6 +27,7 @@ function Home() {
                           and computer systems from scratch. Design and implement network architecture to manage networks effectively, and efficiently. 
                           <span>Web developer</span> with knowledge in HTML, CSS, JavaScript, NodeJS, React and databases. 
                       </p>
+                      <a className="pdf" href = {Pdf}>Download Resume</a>
                   </div>
               </div>
           </div>
